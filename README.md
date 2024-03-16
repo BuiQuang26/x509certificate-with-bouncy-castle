@@ -6,7 +6,7 @@ In this example, I will perform the creation of a child certificate signed by a 
 - java 17
 - build tool: maven
 
-## Prepare root certificate using Openssl
+## Prepare self-signed root CA certificate using Openssl
 - Generate root key
 ```shell
 openssl genrsa -out ca-private.key 2048
