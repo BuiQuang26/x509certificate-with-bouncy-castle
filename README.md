@@ -84,7 +84,7 @@ import java.security.PrivateKey;
 ```
 
 ```java
-InputStream keyInputStream = new FileInputStream(properties.getMqtt().getTls().getKey());
+InputStream keyInputStream = new FileInputStream("client-private.key");
 BufferedReader reader = new BufferedReader(new InputStreamReader(keyInputStream));
 StringBuilder stringBuilder = new StringBuilder();
 String line;
